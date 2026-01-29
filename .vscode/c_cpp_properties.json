@@ -1,0 +1,77 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/include",
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/src",
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/GyverOLED/src",
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/Encoder",
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/Encoder/utility",
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/RTClib/src",
+                "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/Adafruit BusIO",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/gomer/.platformio/lib/Encoder",
+                "/home/gomer/.platformio/lib/Encoder/utility",
+                "/home/gomer/.platformio/lib/GyverOLED/src",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/include",
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/src",
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/GyverOLED/src",
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/Encoder",
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/Encoder/utility",
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/RTClib/src",
+                    "/home/gomer/Documents/PlatformIO/Projects/CorectClock-v2/.pio/libdeps/nanoatmega328_debug/Adafruit BusIO",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/gomer/.platformio/lib/Encoder",
+                    "/home/gomer/.platformio/lib/Encoder/utility",
+                    "/home/gomer/.platformio/lib/GyverOLED/src",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/gomer/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_NANO",
+                "DEBUG_MODE",
+                "PIN_BTN_CONF=5",
+                "PIN_BTN_BACK=6",
+                "PIN_ODD=11",
+                "PIN_EVEN=12",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/gomer/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
